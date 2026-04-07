@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": 6,
+      "endpoint": "https://fintechwave.ai/ai-agent/micropost/6/data"
+    },
+    {
+      "id": 7,
+      "endpoint": "https://fintechwave.ai/ai-agent/micropost/7/data"
+    },
+    {
+      "id": 8,
+      "endpoint": "https://fintechwave.ai/ai-agent/micropost/8/data"
+    }
+  ]
+}
