@@ -15,8 +15,29 @@ This repository provides a minimal, real-world implementation of machine-payable
 
 ---
 
+## x402 json Discovery Block:
+
+{
+  "protocol": "x402",
+  "version": "1.0",
+  "network": "base",
+  "currency": "USDC"
+}
+
+---
+
 ## 🔗 Example Endpoint
 https://fintechwave.ai/ai-agent/micropost/8/data
+
+---
+
+## x402 response headers:
+
+HTTP/2 402
+x-payment-required: true
+x-payment-amount: 0.001
+x-payment-token: USDC
+x-payment-address: 0x...
 
 ---
 
