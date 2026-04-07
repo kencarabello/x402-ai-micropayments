@@ -1,5 +1,7 @@
 {
   "_note": "Reference copy. Source of truth: https://fintechwave.ai/.well-known/x402.json",
+  "x402Version": 1,
+  "type": "api",
   "version": "1.0",
   "name": "Fintech Wave Alpha",
   "description": "Pay-per-call crypto alpha signals, news digest, fortune cookie, and AI-Monetized MicroPosts — x402-protected on Base mainnet. No subscriptions. No API keys. Just a wallet.",
@@ -10,7 +12,7 @@
   "token": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   "facilitator": "https://api.cdp.coinbase.com/platform/v2/x402",
   "contact": "@FintechWave on X.com",
-  "updated": "2026-03-29",
+  "updated": "2026-03-29T00:00:00Z",
   "pricing_note": "Pay-per-call. MicroPost /data unlocks are $0.01, $0.02, or $0.05 USDC per post (publisher-chosen). Other endpoints from $0.005 to $50 USDC.",
   "endpoints": [
     {
@@ -18,7 +20,7 @@
       "method": "GET",
       "amount": "0.01",
       "amounts": ["0.01", "0.02", "0.05"],
-      "description": "AI Agent MicroPost — machine-readable JSON after x402 USDC payment on Base. Replace {id} with the post id (e.g. 6 → https://fintechwave.ai/ai-agent/micropost/6/data). Each post sets its unlock price to exactly one of amounts[]; send the matching USDC amount indicated by the HTTP 402 / payment requirement for that id. Human-readable page: /ai-agent/micropost/{id}.",
+      "description": "AI Agent MicroPost — machine-readable JSON after x402 USDC payment on Base. Replace {id} with the post id (e.g. 6 → https://fintechwave.ai/ai-agent/micropost/6/data). Each post sets its unlock price to exactly one of amounts[]; use the exact amount returned in the HTTP 402 payment requirement for that id. Human-readable page: /ai-agent/micropost/{id}.",
       "mimeType": "application/json"
     },
     {
