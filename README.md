@@ -1,6 +1,3 @@
-# x402-ai-micropayments
-AI-agent monetized HTTP 402 endpoints for micropayments. Access paid data using x402 (USDC on Base). Built for bots, developers, and autonomous systems.
-
 # x402 AI Micropayments
 
 Monetized HTTP 402 (x402) endpoints for AI agents, bots, and developers.
