@@ -1,0 +1,405 @@
+{
+  "_note": "Alpha signal index. Data is accessible via x402-protected endpoints.",
+  "items": [
+    {
+      "slug": "whale-pattern-01",
+      "status": "static",
+      "price": 0.01,
+      "network": "base",
+      "description": "Dormant Base whale accumulation pattern.",
+      "endpoint": "https://fintechwave.ai/data/whale-pattern-01"
+    },
+    {
+      "slug": "sol-arb-route-02",
+      "status": "static",
+      "price": 0.02,
+      "network": "base",
+      "description": "High-confidence SOL arbitrage route.",
+      "endpoint": "https://fintechwave.ai/data/sol-arb-route-02"
+    },
+    {
+      "slug": "eth-gas-window",
+      "status": "dynamic",
+      "price": 0.005,
+      "network": "base",
+      "description": "Low gas window prediction.",
+      "endpoint": "https://fintechwave.ai/data/eth-gas-window"
+    },
+    {
+      "slug": "tariff-hedge-signal",
+      "status": "dynamic",
+      "price": 0.015,
+      "network": "base",
+      "description": "Volatility hedge vs Trump 15% tariff news.",
+      "endpoint": "https://fintechwave.ai/data/tariff-hedge-signal"
+    },
+    {
+      "slug": "ai-agent-flow-01",
+      "status": "static",
+      "price": 0.03,
+      "network": "base",
+      "description": "Autonomous AI agent liquidity cluster.",
+      "endpoint": "https://fintechwave.ai/data/ai-agent-flow-01"
+    },
+    {
+      "slug": "rwa-treasury-yield",
+      "status": "static",
+      "price": 0.025,
+      "network": "base",
+      "description": "Tokenized US T-Bill yield tracker.",
+      "endpoint": "https://fintechwave.ai/data/rwa-treasury-yield"
+    },
+    {
+      "slug": "meme-velocity-scan",
+      "status": "dynamic",
+      "price": 0.01,
+      "network": "base",
+      "description": "Base memecoin social velocity tracker.",
+      "endpoint": "https://fintechwave.ai/data/meme-velocity-scan"
+    },
+    {
+      "slug": "lp-impermanent-risk",
+      "status": "static",
+      "price": 0.008,
+      "network": "base",
+      "description": "IL risk assessment for CBETH/ETH pools.",
+      "endpoint": "https://fintechwave.ai/data/lp-impermanent-risk"
+    },
+    {
+      "slug": "perp-funding-arb",
+      "status": "dynamic",
+      "price": 0.04,
+      "network": "base",
+      "description": "Funding rate arb: CEX vs Base Perps.",
+      "endpoint": "https://fintechwave.ai/data/perp-funding-arb"
+    },
+    {
+      "slug": "smart-money-inflow",
+      "status": "static",
+      "price": 0.02,
+      "network": "base",
+      "description": "Top 100 profitable wallet movements.",
+      "endpoint": "https://fintechwave.ai/data/smart-money-inflow"
+    },
+    {
+      "slug": "base-tps-spike",
+      "status": "dynamic",
+      "price": 0.005,
+      "network": "base",
+      "description": "Network congestion & TPS monitor.",
+      "endpoint": "https://fintechwave.ai/data/base-tps-spike"
+    },
+    {
+      "slug": "bridge-liquidity-map",
+      "status": "static",
+      "price": 0.012,
+      "network": "base",
+      "description": "Optimism-to-Base bridge depth.",
+      "endpoint": "https://fintechwave.ai/data/bridge-liquidity-map"
+    },
+    {
+      "slug": "stable-depeg-alert",
+      "status": "dynamic",
+      "price": 0.05,
+      "network": "base",
+      "description": "Algorithmic stablecoin peg monitor.",
+      "endpoint": "https://fintechwave.ai/data/stable-depeg-alert"
+    },
+    {
+      "slug": "yield-aggregator-01",
+      "status": "static",
+      "price": 0.015,
+      "network": "base",
+      "description": "Beefy/Reaper auto-compounder alpha.",
+      "endpoint": "https://fintechwave.ai/data/yield-aggregator-01"
+    },
+    {
+      "slug": "mev-protection-stat",
+      "status": "static",
+      "price": 0.007,
+      "network": "base",
+      "description": "MEV sandwich frequency on Base DEXs.",
+      "endpoint": "https://fintechwave.ai/data/mev-protection-stat"
+    },
+    {
+      "slug": "btc-etf-proxy-flow",
+      "status": "dynamic",
+      "price": 0.022,
+      "network": "base",
+      "description": "Tracking BTC price action vs ETF net inflows.",
+      "endpoint": "https://fintechwave.ai/data/btc-etf-proxy-flow"
+    },
+    {
+      "slug": "social-fi-rank",
+      "status": "static",
+      "price": 0.009,
+      "network": "base",
+      "description": "Farcaster frame transaction volume.",
+      "endpoint": "https://fintechwave.ai/data/social-fi-rank"
+    },
+    {
+      "slug": "nft-floor-sweep-01",
+      "status": "dynamic",
+      "price": 0.018,
+      "network": "base",
+      "description": "Base NFT floor price momentum.",
+      "endpoint": "https://fintechwave.ai/data/nft-floor-sweep-01"
+    },
+    {
+      "slug": "protocol-revenue-bot",
+      "status": "static",
+      "price": 0.035,
+      "network": "base",
+      "description": "Real-time protocol fee generation.",
+      "endpoint": "https://fintechwave.ai/data/protocol-revenue-bot"
+    },
+    {
+      "slug": "governance-whale-vote",
+      "status": "static",
+      "price": 0.01,
+      "network": "base",
+      "description": "Major DAO voting power shifts.",
+      "endpoint": "https://fintechwave.ai/data/governance-whale-vote"
+    },
+    {
+      "slug": "cex-outflow-tracker",
+      "status": "dynamic",
+      "price": 0.02,
+      "network": "base",
+      "description": "Coinbase to Base wallet transfers.",
+      "endpoint": "https://fintechwave.ai/data/cex-outflow-tracker"
+    },
+    {
+      "slug": "liquid-staking-yield",
+      "status": "static",
+      "price": 0.006,
+      "network": "base",
+      "description": "LST (cbETH/wstETH) yield comparison.",
+      "endpoint": "https://fintechwave.ai/data/liquid-staking-yield"
+    },
+    {
+      "slug": "cross-chain-intent",
+      "status": "dynamic",
+      "price": 0.03,
+      "network": "base",
+      "description": "Intent-based cross-chain order flow.",
+      "endpoint": "https://fintechwave.ai/data/cross-chain-intent"
+    },
+    {
+      "slug": "zk-proof-latency",
+      "status": "static",
+      "price": 0.005,
+      "network": "base",
+      "description": "Verification time for ZK-L3 rollups.",
+      "endpoint": "https://fintechwave.ai/data/zk-proof-latency"
+    },
+    {
+      "slug": "alpha-leaked-wallets",
+      "status": "static",
+      "price": 0.045,
+      "network": "base",
+      "description": "Tracking 'insider' minting behavior.",
+      "endpoint": "https://fintechwave.ai/data/alpha-leaked-wallets"
+    },
+    {
+      "slug": "slippage-optimizer",
+      "status": "dynamic",
+      "price": 0.011,
+      "network": "base",
+      "description": "Optimal trade size vs pool depth.",
+      "endpoint": "https://fintechwave.ai/data/slippage-optimizer"
+    },
+    {
+      "slug": "flash-loan-check",
+      "status": "static",
+      "price": 0.025,
+      "network": "base",
+      "description": "Active flash loan arbitrage scouting.",
+      "endpoint": "https://fintechwave.ai/data/flash-loan-check"
+    },
+    {
+      "slug": "token-unlock-timer",
+      "status": "static",
+      "price": 0.008,
+      "network": "base",
+      "description": "Upcoming cliff unlock countdown.",
+      "endpoint": "https://fintechwave.ai/data/token-unlock-timer"
+    },
+    {
+      "slug": "wash-trade-filter",
+      "status": "dynamic",
+      "price": 0.014,
+      "network": "base",
+      "description": "Organic vs Fake volume analysis.",
+      "endpoint": "https://fintechwave.ai/data/wash-trade-filter"
+    },
+    {
+      "slug": "re-staking-apr-map",
+      "status": "static",
+      "price": 0.022,
+      "network": "base",
+      "description": "EigenLayer/Symbiotic yield on L2.",
+      "endpoint": "https://fintechwave.ai/data/re-staking-apr-map"
+    },
+    {
+      "slug": "fear-greed-onchain",
+      "status": "dynamic",
+      "price": 0.005,
+      "network": "base",
+      "description": "Sentiment based on leverage ratios.",
+      "endpoint": "https://fintechwave.ai/data/fear-greed-onchain"
+    },
+    {
+      "slug": "modular-da-cost",
+      "status": "static",
+      "price": 0.007,
+      "network": "base",
+      "description": "Data Availability cost (Celestia/Avail).",
+      "endpoint": "https://fintechwave.ai/data/modular-da-cost"
+    },
+    {
+      "slug": "hyperliquid-clone",
+      "status": "dynamic",
+      "price": 0.033,
+      "network": "base",
+      "description": "Base native perps vs Hyperliquid.",
+      "endpoint": "https://fintechwave.ai/data/hyperliquid-clone"
+    },
+    {
+      "slug": "stable-velocity-m2",
+      "status": "static",
+      "price": 0.012,
+      "network": "base",
+      "description": "Speed of stablecoin circulation.",
+      "endpoint": "https://fintechwave.ai/data/stable-velocity-m2"
+    },
+    {
+      "slug": "gas-refund-hunter",
+      "status": "dynamic",
+      "price": 0.006,
+      "network": "base",
+      "description": "Protocols offering gas rebates.",
+      "endpoint": "https://fintechwave.ai/data/gas-refund-hunter"
+    },
+    {
+      "slug": "dev-activity-pulse",
+      "status": "static",
+      "price": 0.009,
+      "network": "base",
+      "description": "Github commits for Base protocols.",
+      "endpoint": "https://fintechwave.ai/data/dev-activity-pulse"
+    },
+    {
+      "slug": "p2p-lending-spread",
+      "status": "static",
+      "price": 0.016,
+      "network": "base",
+      "description": "Morpho vs Aave borrow rates.",
+      "endpoint": "https://fintechwave.ai/data/p2p-lending-spread"
+    },
+    {
+      "slug": "oracle-latency-ms",
+      "status": "dynamic",
+      "price": 0.04,
+      "network": "base",
+      "description": "Pyth vs Chainlink update speed.",
+      "endpoint": "https://fintechwave.ai/data/oracle-latency-ms"
+    },
+    {
+      "slug": "rug-pull-scanner",
+      "status": "dynamic",
+      "price": 0.05,
+      "network": "base",
+      "description": "Liquidity lock & contract audit check.",
+      "endpoint": "https://fintechwave.ai/data/rug-pull-scanner"
+    },
+    {
+      "slug": "evm-parallel-check",
+      "status": "static",
+      "price": 0.01,
+      "network": "base",
+      "description": "Monad-style parallel execution test.",
+      "endpoint": "https://fintechwave.ai/data/evm-parallel-check"
+    },
+    {
+      "slug": "account-abstract-use",
+      "status": "static",
+      "price": 0.005,
+      "network": "base",
+      "description": "Smart wallet adoption metrics (ERC-4337).",
+      "endpoint": "https://fintechwave.ai/data/account-abstract-use"
+    },
+    {
+      "slug": "treasury-buyback-log",
+      "status": "static",
+      "price": 0.018,
+      "network": "base",
+      "description": "DAO buyback events on-chain.",
+      "endpoint": "https://fintechwave.ai/data/treasury-buyback-log"
+    },
+    {
+      "slug": "fiat-onramp-spread",
+      "status": "dynamic",
+      "price": 0.007,
+      "network": "base",
+      "description": "Best rate for USD to Base USDC.",
+      "endpoint": "https://fintechwave.ai/data/fiat-onramp-spread"
+    },
+    {
+      "slug": "validator-health-01",
+      "status": "static",
+      "price": 0.006,
+      "network": "base",
+      "description": "Base sequencer uptime and lag.",
+      "endpoint": "https://fintechwave.ai/data/validator-health-01"
+    },
+    {
+      "slug": "undercollateral-loan",
+      "status": "dynamic",
+      "price": 0.045,
+      "network": "base",
+      "description": "Institutional credit-line monitoring.",
+      "endpoint": "https://fintechwave.ai/data/undercollateral-loan"
+    },
+    {
+      "slug": "synthetic-asset-peg",
+      "status": "static",
+      "price": 0.02,
+      "network": "base",
+      "description": "Peg tracking for sBTC and sETH.",
+      "endpoint": "https://fintechwave.ai/data/synthetic-asset-peg"
+    },
+    {
+      "slug": "l3-ecosystem-growth",
+      "status": "static",
+      "price": 0.013,
+      "network": "base",
+      "description": "TVL growth on Base-centric L3s.",
+      "endpoint": "https://fintechwave.ai/data/l3-ecosystem-growth"
+    },
+    {
+      "slug": "real-time-liq-map",
+      "status": "dynamic",
+      "price": 0.035,
+      "network": "base",
+      "description": "Liquidation heat map for ETH perps.",
+      "endpoint": "https://fintechwave.ai/data/real-time-liq-map"
+    },
+    {
+      "slug": "privacy-pool-flow",
+      "status": "static",
+      "price": 0.025,
+      "network": "base",
+      "description": "Anonymized transaction volume trends.",
+      "endpoint": "https://fintechwave.ai/data/privacy-pool-flow"
+    },
+    {
+      "slug": "token-tax-checker",
+      "status": "dynamic",
+      "price": 0.01,
+      "network": "base",
+      "description": "Buy/Sell tax on new Base tokens.",
+      "endpoint": "https://fintechwave.ai/data/token-tax-checker"
+    }
+  ]
+}
