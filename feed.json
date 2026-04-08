@@ -3,8 +3,8 @@
   "description": "AI-monetized micropost index. Each endpoint returns x402-protected content payable in USDC on Base.",
   "base_url": "https://fintechwave.ai",
   "pattern": "/ai-agent/micropost/{id}/data",
-  "count": "14",
   "updated": "2026-04-07T19:23:26.000Z",
+  "count": 14,
   "posts": [
   {
     "id": 1,
