@@ -1,10 +1,8 @@
-[
   {
   "name": "Fintech Wave AI - MicroPost Feed",
   "description": "AI-monetized micropost index. Each endpoint returns x402-protected content payable in USDC on Base.",
   "updated": "2026-04-07T19:23:26.000Z",
-  "posts": [ ... ]
-  },
+  "posts": [
   {
     "id": 1,
     "headline": "Earn Passive $USDC with AI-Monetized MicroPosts!!!",
@@ -118,3 +116,4 @@
     "published": "2026-04-07T19:23:26.000Z"
   }
 ]
+}
