@@ -9,9 +9,25 @@
   "token": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   "facilitator": "https://api.cdp.coinbase.com/platform/v2/x402",
   "contact": "@FintechWave on X.com",
-  "updated": "2026-05-10",
-  "pricing_note": "Pay-per-call. Crypto Digest JSON bot /alpha/crypto-updates/data is $0.01 USDC. MicroPost /data unlocks are $0.01, $0.02, or $0.05 USDC per post (publisher-chosen). Other endpoints from $0.005 to $50 USDC.",
+  "updated": "2026-11-20",
+  "pricing_note": "Pay-per-call. Code snippet files at /code-snippets/{id}/data are $0.01 USDC each. Crypto Digest JSON bot /alpha/crypto-updates/data is $0.01 USDC. MicroPost /data unlocks are $0.01, $0.02, or $0.05 USDC per post (publisher-chosen). Other endpoints from $0.005 to $50 USDC.",
   "endpoints": [
+    {
+      "path": "/code-snippets",
+      "method": "GET",
+      "amount": "0",
+      "description": "Free catalog of single-file JavaScript helpers. Lists title, size, and the paid path. Does not include the file. Each paid file is GET /code-snippets/{id}/data for $0.01 USDC. /code-snippets/{id} redirects to that paid path.",
+      "mimeType": "text/html",
+      "tags": ["code", "snippet", "javascript", "x402", "usdc", "base"]
+    },
+    {
+      "path": "/code-snippets/{id}/data",
+      "method": "GET",
+      "amount": "0.01",
+      "description": "One JavaScript file, no dependencies, returned in JSON after x402 payment on Base. Replace {id} with 1 through 8 (e.g. 1 → https://fintechwave.ai/code-snippets/1/data). These helpers format USDC, read a 402 body, or check JSON. They do not create a wallet.",
+      "mimeType": "application/json",
+      "tags": ["code", "snippet", "javascript", "x402", "usdc"]
+    },
     {
       "path": "/ai-agent/micropost/{id}/data",
       "method": "GET",
